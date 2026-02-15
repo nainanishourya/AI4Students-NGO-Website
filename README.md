@@ -274,7 +274,7 @@ This is an NGO website. To contribute:
 ## 📧 Contact
 
 For questions about the website or AI4Students:
-- **Email**: info@ai4students.org
+- **Email**: ai4students1234@gmail.com
 - **Website**: [Your deployed URL]
 
 ## 📄 License
