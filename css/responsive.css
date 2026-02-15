@@ -1,0 +1,376 @@
+/* ===========================
+   AI4Students - Responsive Styles
+   Mobile & Tablet Optimizations
+   =========================== */
+
+/* Tablet Styles (768px - 1024px) */
+@media screen and (max-width: 1024px) {
+    .container {
+        padding: 0 var(--spacing-md);
+    }
+
+    .hero-title {
+        font-size: 2rem;
+    }
+
+    .section-title {
+        font-size: 1.875rem;
+    }
+
+    .contact-grid {
+        grid-template-columns: 1fr;
+        gap: var(--spacing-lg);
+    }
+}
+
+/* Mobile Styles (max-width: 768px) */
+@media screen and (max-width: 768px) {
+    /* Typography Adjustments */
+    .hero-title {
+        font-size: 1.75rem;
+        line-height: 1.3;
+    }
+
+    .hero-subtitle {
+        font-size: 1rem;
+    }
+
+    .section-title {
+        font-size: 1.625rem;
+    }
+
+    .page-header h1 {
+        font-size: 2rem;
+    }
+
+    /* Navigation */
+    .mobile-menu-toggle {
+        display: flex;
+    }
+
+    .nav-menu {
+        position: fixed;
+        left: -100%;
+        top: 70px;
+        flex-direction: column;
+        background-color: white;
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+        box-shadow: var(--shadow-lg);
+        padding: var(--spacing-md) 0;
+        gap: 0;
+    }
+
+    .nav-menu.active {
+        left: 0;
+    }
+
+    .nav-menu li {
+        padding: var(--spacing-sm) 0;
+        border-bottom: 1px solid var(--border-color);
+    }
+
+    .nav-menu li:last-child {
+        border-bottom: none;
+    }
+
+    /* Hero Section */
+    .hero {
+        padding: var(--spacing-lg) 0;
+    }
+
+    .hero-buttons {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .hero-buttons .btn {
+        width: 100%;
+    }
+
+    /* Grid Adjustments */
+    .mission-grid,
+    .activities-grid,
+    .stats-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .difference-grid,
+    .resources-grid,
+    .faq-grid {
+        grid-template-columns: 1fr;
+    }
+
+    /* Cards & Sections */
+    .mission-card,
+    .activity-card {
+        text-align: left;
+    }
+
+    .mission-card .icon,
+    .activity-icon,
+    .activity-detail-icon {
+        text-align: center;
+    }
+
+    /* Icon size adjustments for mobile */
+    .mission-card .icon {
+        font-size: 2.5rem;
+    }
+
+    .activity-icon {
+        font-size: 2rem;
+    }
+
+    .activity-detail-icon {
+        font-size: 3rem;
+    }
+
+    /* Footer */
+    .footer-grid {
+        grid-template-columns: 1fr;
+        gap: var(--spacing-lg);
+    }
+
+    .footer-section {
+        text-align: left;
+    }
+
+    /* Activity Detail Cards */
+    .activity-detail-card {
+        padding: var(--spacing-md);
+    }
+
+    .activity-detail-card h2 {
+        font-size: 1.5rem;
+    }
+
+    .activity-intro {
+        padding: 0;
+    }
+
+    /* Request Steps */
+    .request-steps {
+        grid-template-columns: 1fr;
+    }
+
+    /* Contact Form */
+    .contact-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .contact-form-container {
+        padding: var(--spacing-md);
+    }
+
+    /* Newsletter Form */
+    .newsletter-form {
+        flex-direction: column;
+    }
+
+    .newsletter-form input,
+    .newsletter-form button {
+        width: 100%;
+    }
+
+    /* Spacing Adjustments */
+    section {
+        padding: var(--spacing-lg) 0;
+    }
+
+    .content-section h2 {
+        font-size: 1.5rem;
+    }
+
+    /* Stats Section */
+    .stat-number {
+        font-size: 2.5rem;
+    }
+
+    .stat-label {
+        font-size: 1rem;
+    }
+}
+
+/* Small Mobile Styles (max-width: 480px) */
+@media screen and (max-width: 480px) {
+    /* Further Typography Adjustments */
+    .hero-title {
+        font-size: 1.5rem;
+    }
+
+    .section-title {
+        font-size: 1.5rem;
+    }
+
+    .page-header h1 {
+        font-size: 1.75rem;
+    }
+
+    /* Buttons */
+    .btn {
+        padding: 0.75rem 1.5rem;
+        font-size: 0.9375rem;
+    }
+
+    /* Logo */
+    .logo h1 {
+        font-size: 1.5rem;
+    }
+
+    .logo .tagline {
+        font-size: 0.6875rem;
+    }
+
+    /* Cards & Content */
+    .mission-card,
+    .activity-card,
+    .resource-card {
+        padding: var(--spacing-sm);
+    }
+
+    .activity-detail-card {
+        padding: var(--spacing-sm);
+    }
+
+    /* Stats */
+    .stat-number {
+        font-size: 2rem;
+    }
+
+    .stat-label {
+        font-size: 0.9375rem;
+    }
+
+    /* Contact & Forms */
+    .contact-method {
+        padding: var(--spacing-sm);
+    }
+
+    .contact-form-container {
+        padding: var(--spacing-sm);
+    }
+
+    /* Footer */
+    .footer {
+        padding: var(--spacing-md) 0 var(--spacing-sm);
+    }
+
+    .footer-bottom {
+        font-size: 0.875rem;
+    }
+
+    /* Spacing */
+    :root {
+        --spacing-xl: 2.5rem;
+        --spacing-lg: 2rem;
+    }
+}
+
+/* Landscape Mobile Orientation */
+@media screen and (max-height: 500px) and (orientation: landscape) {
+    .hero {
+        padding: var(--spacing-md) 0;
+    }
+
+    .page-header {
+        padding: var(--spacing-md) 0;
+    }
+
+    section {
+        padding: var(--spacing-md) 0;
+    }
+}
+
+/* Print Styles */
+@media print {
+    .navbar,
+    .mobile-menu-toggle,
+    .hero-buttons,
+    .cta,
+    .footer,
+    .newsletter-section,
+    .contact-form {
+        display: none;
+    }
+
+    body {
+        font-size: 12pt;
+        line-height: 1.5;
+    }
+
+    .container {
+        max-width: 100%;
+    }
+
+    a {
+        text-decoration: underline;
+    }
+
+    .page-header {
+        background: none;
+        color: var(--dark-color);
+    }
+}
+
+/* High Contrast Mode Support */
+@media (prefers-contrast: high) {
+    :root {
+        --border-color: #000000;
+    }
+
+    .btn {
+        border-width: 2px;
+    }
+
+    .mission-card,
+    .activity-card,
+    .resource-card {
+        border: 2px solid var(--dark-color);
+    }
+}
+
+/* Reduced Motion Support */
+@media (prefers-reduced-motion: reduce) {
+    * {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+    }
+
+    html {
+        scroll-behavior: auto;
+    }
+}
+
+/* Dark Mode Support (Optional Enhancement) */
+@media (prefers-color-scheme: dark) {
+    /* Uncomment to enable dark mode */
+    /*
+    :root {
+        --light-color: #1e293b;
+        --dark-color: #f8fafc;
+        --text-color: #e2e8f0;
+        --text-light: #94a3b8;
+        --border-color: #334155;
+    }
+
+    body {
+        background-color: #0f172a;
+    }
+
+    .navbar,
+    .mission-card,
+    .activity-card,
+    .resource-card,
+    .contact-method,
+    .faq-item {
+        background-color: #1e293b;
+    }
+
+    .footer {
+        background-color: #0f172a;
+    }
+    */
+}

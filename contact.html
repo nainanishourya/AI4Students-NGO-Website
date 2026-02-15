@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Get in touch with AI4Students">
+    <title>Contact Us - AI4Students</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo">
+                    <h1>AI4Students</h1>
+                    <p class="tagline">Empowering Young Minds</p>
+                </div>
+                <button class="mobile-menu-toggle" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="activities.html">Our Activities</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Get in Touch</h1>
+            <p>We'd love to hear from you and bring AI education to your community</p>
+        </div>
+    </section>
+
+    <!-- Contact Content -->
+    <section class="contact-content">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h2>Connect With Us</h2>
+                    <p>Whether you're a school administrator, teacher, student, parent, or supporter—we welcome your inquiries and collaboration opportunities.</p>
+                    
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <div class="method-icon"><i class="fas fa-envelope"></i></div>
+                            <h3>Email</h3>
+                            <p>info@ai4students.org</p>
+                            <p class="method-note">We typically respond within 24-48 hours</p>
+                        </div>
+                        
+                        <div class="contact-method">
+                            <div class="method-icon"><i class="fas fa-map-marker-alt"></i></div>
+                            <h3>Location</h3>
+                            <p>Serving schools across India</p>
+                            <p class="method-note">We conduct sessions in-person and online</p>
+                        </div>
+                        
+                        <div class="contact-method">
+                            <div class="method-icon"><i class="fas fa-clock"></i></div>
+                            <h3>Response Time</h3>
+                            <p>Monday - Friday: 9 AM - 6 PM</p>
+                            <p class="method-note">Extended hours for urgent school requests</p>
+                        </div>
+                    </div>
+
+                    <div class="ways-to-help">
+                        <h3>Ways to Get Involved</h3>
+                        <ul>
+                            <li><strong>Request a Session:</strong> Bring AI awareness to your school</li>
+                            <li><strong>Volunteer:</strong> Help us reach more students</li>
+                            <li><strong>Collaborate:</strong> Partner with us for events or programs</li>
+                            <li><strong>Support:</strong> Contribute resources or materials</li>
+                            <li><strong>Spread the Word:</strong> Share our mission with others</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="contact-form-container">
+                    <form class="contact-form" id="contactForm">
+                        <h2>Send Us a Message</h2>
+                        
+                        <div class="form-group">
+                            <label for="name">Your Name *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="userType">I am a... *</label>
+                            <select id="userType" name="userType" required>
+                                <option value="">Select...</option>
+                                <option value="teacher">Teacher</option>
+                                <option value="principal">School Principal/Administrator</option>
+                                <option value="student">Student</option>
+                                <option value="parent">Parent</option>
+                                <option value="volunteer">Potential Volunteer</option>
+                                <option value="supporter">Supporter/Donor</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="schoolName">School Name (if applicable)</label>
+                            <input type="text" id="schoolName" name="schoolName">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject">Subject *</label>
+                            <select id="subject" name="subject" required>
+                                <option value="">Select...</option>
+                                <option value="session-request">Request an Awareness Session</option>
+                                <option value="volunteer">Volunteer Inquiry</option>
+                                <option value="collaboration">Collaboration Opportunity</option>
+                                <option value="materials">Questions about Learning Materials</option>
+                                <option value="support">Support/Donation</option>
+                                <option value="feedback">Feedback</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Your Message *</label>
+                            <textarea id="message" name="message" rows="6" required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                        <p class="form-note">* Required fields. We respect your privacy and will never share your information.</p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <div class="container">
+            <h2>Frequently Asked Questions</h2>
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <h3>Are your sessions really free?</h3>
+                    <p>Yes! Our sessions are completely free for government schools and underserved communities. We believe AI education should be accessible to all students regardless of their economic background.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>How do I schedule a session for my school?</h3>
+                    <p>Simply fill out the contact form above or email us at info@ai4students.org with details about your school, preferred dates, and number of students. We'll work with you to schedule a convenient time.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>What grade levels do you work with?</h3>
+                    <p>We primarily focus on students in classes 8 to 12, but we can adapt our content for slightly younger or older students based on the school's needs.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Do students need prior tech knowledge?</h3>
+                    <p>Not at all! Our sessions are designed for students with varying levels of tech experience. We explain everything in simple, accessible language.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Can I get your learning materials?</h3>
+                    <p>Yes! We provide free learning materials, e-magazines, and study guides to schools and students. Contact us to request materials or discuss what resources would be most helpful for your needs.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>How can I volunteer with AI4Students?</h3>
+                    <p>We welcome volunteers who are passionate about education and technology. Contact us through the form above, and let us know about your background and how you'd like to contribute.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <h2>Ready to Bring AI Education to Your School?</h2>
+            <p>Let's work together to empower students with AI awareness and digital literacy.</p>
+            <a href="#contactForm" class="btn btn-light">Get Started Today</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-section">
+                    <h3>AI4Students</h3>
+                    <p>Making Artificial Intelligence education accessible, relatable, and meaningful for all students.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="activities.html">Our Activities</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Get Involved</h4>
+                    <ul>
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="contact.html">Request a Session</a></li>
+                        <li><a href="contact.html">Volunteer</a></li>
+                        <li><a href="contact.html">Support Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Connect</h4>
+                    <p>Email: info@ai4students.org</p>
+                    <p>Helping students become informed and confident users of AI technology.</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 AI4Students. All rights reserved. | Empowering Young Minds Through AI Education</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,71 @@
+# AI4Students Website - .gitignore
+
+# Operating System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Editor Files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
+
+# Temporary Files
+*.tmp
+*.temp
+*.log
+*.cache
+
+# Build/Distribution
+dist/
+build/
+*.zip
+*.tar.gz
+
+# Dependencies (if you add any later)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Environment Variables
+.env
+.env.local
+.env.production
+
+# Backup Files
+*.bak
+*.backup
+*-backup
+backup/
+
+# Test Files
+test/
+tests/
+*.test.js
+*.spec.js
+
+# Documentation Drafts
+drafts/
+notes.txt
+TODO.txt
+
+# Images (uncomment if you want to exclude images)
+# images/
+# *.jpg
+# *.jpeg
+# *.png
+# *.gif
+# *.svg
+
+# Production Config (uncomment if needed)
+# config.production.js
+# secrets.json
