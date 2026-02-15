@@ -169,9 +169,26 @@ The website is optimized for performance:
 - Fast loading times
 - Mobile-first approach
 
+## 📧 Contact & Support
+
+- **Email**: ai4students1234@gmail.com
+- **Response Time**: Typically 24-48 hours
+- **Location**: Serving schools in Mohali, Punjab, India
+- **Hours**: Monday - Friday: 9 AM - 6 PM (Extended hours for urgent school requests)
+
+For inquiries, feedback, or to request an awareness session for your school, please visit our [Contact Page](contact.html) or email us directly.
+
 ---
 
-## 🏆 Technical Achievements
+## 🏆 Recognition
+
+This project was developed as a college social initiative to support digital inclusion and educational accessibility in underserved communities.
+
+---
+
+## 📄 License
+
+This project may be licensed under MIT License or as specified in your repository settings.
 
 ### Development Highlights:
 - ✅ **100% Responsive**: Works seamlessly on all devices (mobile, tablet, desktop)
@@ -193,14 +210,20 @@ The website is optimized for performance:
 
 ---
 
+## 📧 Contact
+
+- **Email**: ai4students1234@gmail.com
+- **Location**: Serving schools in Mohali, Punjab, India
+- **Website**: Check our social initiatives and programs on our website
+
+---
+
 ## 🌐 Live Demo
 
 After deployment on GitHub Pages, the website will be accessible at:
 ```
 https://[your-username].github.io/AI4Students-NGO-Website/
 ```
-
-See [GITHUB_UPLOAD_GUIDE.md](GITHUB_UPLOAD_GUIDE.md) for deployment instructions.
 
 ---
 
