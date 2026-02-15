@@ -92,33 +92,35 @@ document.addEventListener('DOMContentLoaded', function() {
     
     if (contactForm) {
         contactForm.addEventListener('submit', function(e) {
-            e.preventDefault();
-            
             // Get form values
             const formData = {
                 name: document.getElementById('name').value,
                 email: document.getElementById('email').value,
-                phone: document.getElementById('phone').value,
                 userType: document.getElementById('userType').value,
-                schoolName: document.getElementById('schoolName').value,
                 subject: document.getElementById('subject').value,
                 message: document.getElementById('message').value
             };
 
             // Basic validation
             if (!formData.name || !formData.email || !formData.userType || !formData.subject || !formData.message) {
+                e.preventDefault();
                 showMessage('Please fill in all required fields.', 'error');
                 return;
             }
 
             // Email validation
             if (!isValidEmail(formData.email)) {
+                e.preventDefault();
                 showMessage('Please enter a valid email address.', 'error');
                 return;
             }
 
-            // Simulate form submission (replace with actual API call)
-            submitForm(formData);
+            // If validation passes, allow Formspree submission
+            // Show loading state
+            const submitButton = this.querySelector('button[type="submit"]');
+            const originalText = submitButton.textContent;
+            submitButton.textContent = 'Sending...';
+            submitButton.disabled = true;
         });
     }
 
